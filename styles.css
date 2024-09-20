@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+.logo img {
+    height: 30px; /* Adjust based on the actual height */
+}
+
+.nav-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.extra-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.refer {
+    background-color: #f0f0f0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.login-btn {
+    background-color: #ffcccc;
+    border: 1px solid red;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
