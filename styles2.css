@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* News Section */
+.news-section {
+    background-color: #f9faff;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.news-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.news-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: left;
+}
+
+.news-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.news-date {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+}
+
+.news-title {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.see-more-btn {
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.see-more-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Investors Section */
+.investors-section {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.investors-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.investors-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.investors-container img {
+    width: 150px;
+}
